@@ -1,10 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #000;
   color: #F6F6F6;
-
-
+  height: 100vh;
+  box-sizing: border-box;
 }
 
-strong {
+.emphasysTitle {
   color: #22D4FD
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
 }
